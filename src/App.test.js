@@ -8,6 +8,7 @@ it('renders without crashing', () => {
   // adding code under render
 
   // now that test is written, try in terminal
+  // 'npm run test'
   expect(div.innerHTML).toContain('HI THERE!');
 
   ReactDOM.unmountComponentAtNode(div);
